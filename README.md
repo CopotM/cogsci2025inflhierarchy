@@ -1,0 +1,3 @@
+The formatives files are the result of taking the raw inflected lexicons, running the set morph pipeline. From here, we attempt to combine linearly adjacent formatives if the combined formative is identified as such in another lexeme in the same cell. We also mark homophonous formatives in the same word as different. 
+
+Running the program requires using reticulate to link up to a conda environment containing necessary packages for this implementation of the Leiden algorithm. The r-leiden conda environment required by the script contains these dependencies https://github.com/TomKellyGenetics/leiden
