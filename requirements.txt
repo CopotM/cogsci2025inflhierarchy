@@ -1,0 +1,9 @@
+# Core scientific computing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Network analysis
+networkx>=2.8.0
+
+# Progress bars
+tqdm>=4.64.0
